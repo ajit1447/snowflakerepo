@@ -15,7 +15,7 @@ provider "snowflake" {
 }
 
 resource "snowflake_database" "db" {
-  name     = "TF_DEMO2"
+  name     = "TF_DEMO3"
 }
 
 resource "snowflake_database" "db1" {
