@@ -9,7 +9,7 @@ terraform {
 
 provider "snowflake" {
   role  = "SYSADMIN"
-  account="https://bu69832.central-india.azure.snowflakecomputing.c/"
+  account="bu69832"
   username="ajit1447"
   password="NTlk@1557"  
 }
