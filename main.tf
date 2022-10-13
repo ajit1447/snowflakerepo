@@ -9,13 +9,13 @@ terraform {
 
 provider "snowflake" {
   role  = "SYSADMIN"
-  account="bu69832.central-india.azure"
-  username="ajit1447"
-  password="NTlk@1557"  
+  account=var.account
+  username=var.username
+  password=var.password
 }
 
 resource "snowflake_database" "db" {
-  name     = "TF_DEMO"
+  name     = "TF_DEMO2"
 }
 
 resource "snowflake_database" "db1" {
