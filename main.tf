@@ -18,7 +18,7 @@ resource "snowflake_database" "db" {
   name     = "TF_DEMO"
 }
 
-resource "snowflake_database" "db" {
+resource "snowflake_database" "db1" {
   name     = "TF_DEMO1"
 }
 
